@@ -97,8 +97,6 @@ class SausageHTTP
 
 	private function sendRequest()
 	{
-
-	
 			//Sending GET request	
 			if($this->params['METHOD'] == 'GET') {
 
