@@ -5,6 +5,6 @@
  Pull the SausageHTTP file and include/require to your PHP project
  
  # Creating Sausage
- *<?php
+ <?php
   $client = new SausageHTTP();
- ?>*
+ ?>
