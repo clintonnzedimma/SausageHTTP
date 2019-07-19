@@ -1,2 +1,2 @@
 # SausageHTTP
- A lightweight PHP library for sending HTTP request
+ A lightweight PHP library for sending HTTP requests
