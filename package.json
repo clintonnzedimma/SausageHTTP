@@ -1,6 +1,7 @@
 {
 	"name": "SausageHTTP",
+	"description" : "A lightweight library for sending HTTP requests",
 	"version": "0.1.0",
 	"author": "Clinton Nzedimma",
-	"date": "19 Jul 2019"
+	"date": "19 Jul 2019",
 }
