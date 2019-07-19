@@ -3,8 +3,4 @@
  
 # Usage
  Pull the SausageHTTP file and include/require to your PHP project
- 
- # Creating Sausage
- <?php
-  $client = new SausageHTTP();
- ?>
+
