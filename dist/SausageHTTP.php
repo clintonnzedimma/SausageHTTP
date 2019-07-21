@@ -1,7 +1,7 @@
 <?php 
 /**
  * @author Clinton Nzedimma (c) 2019
- * @package Sausage HTTP Package v 0.1.0
+ * @package Sausage HTTP Package v 0.1.1
  */
 
 class SausageHTTP
@@ -112,17 +112,17 @@ class SausageHTTP
 
 			//Sending POST request
 			if ($this->params['METHOD'] == 'POST') {
-				$opts = array('http' =>
-				    array(
-				        'method'  => 'POST',
-				        'header'  => trim($this->params['HEADER']), 
-				        'content' => http_build_query($this->params['OPTIONS'])
-				    )
-				);
-				$context  = stream_context_create($opts);
-				$output = file_get_contents($this->params['URL'], false, $context);
-				return $this->response =  $output;
+				$ch = curl_init();
+				curl_setopt($ch, CURLOPT_URL, $this->params['URL']);
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+				curl_setopt($ch, CURLOPT_HTTPHEADER, $this->params['HEADER']);
+
+				$request = curl_exec($ch);
+				curl_close($ch);
+				return $this->response =  $request;
 			}
+
+
 		
 
 	}
