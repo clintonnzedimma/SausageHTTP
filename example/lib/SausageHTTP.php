@@ -1,8 +1,9 @@
 <?php 
 /**
- * @author Clinton Nzedimma (c) 2019
- * @package Sausage HTTP Package v 0.1.1
+ * @author Clinton Nzedimma (c) 2020
+ * @package Sausage HTTP Package v 0.1.3
  */
+namespace SausageHTTP\SausageHTTP;
 
 class SausageHTTP
 {

@@ -6,7 +6,7 @@ include 'lib/SausageHTTP.php';
 * Tips: Please always set HEADER for POST Request
 */
 
-$client = new SausageHTTP();
+$client = new SausageHTTP\SausageHTTP\SausageHTTP();
 $client->setRequest([
 		"URL" => 'http://jsonplaceholder.typicode.com/comments', 
 		"METHOD" => 'POST', 
