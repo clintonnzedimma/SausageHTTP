@@ -1,0 +1,12 @@
+{
+    "name": "clintonnzedimma/sausage-http",
+    "description": "A lightweight PHP library for sending HTTP requests",
+    "type": "library",
+    "authors": [
+        {
+            "name": "clintonnzedimma",
+            "email": "clintonnzedimma@gmail.com"
+        }
+    ],
+    "require": {}
+}
