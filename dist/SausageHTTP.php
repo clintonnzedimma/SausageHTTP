@@ -4,6 +4,7 @@
  * @package Sausage HTTP Package v 0.1.3
  */
 namespace SausageHTTP\SausageHTTP;
+use Exception;
 
 class SausageHTTP
 {
