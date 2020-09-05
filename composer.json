@@ -4,9 +4,10 @@
     "type": "library",
     "authors": [
         {
-            "name": "clintonnzedimma",
+            "name": "Clinton Nzedimma",
             "email": "clintonnzedimma@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"minimum-stability": "dev"
 }
