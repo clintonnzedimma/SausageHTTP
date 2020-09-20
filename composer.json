@@ -8,6 +8,9 @@
             "email": "clintonnzedimma@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "type": "vcs",
+        "url": "https://github.com/clintonnzedimma/SausageHTTP" 
+    },
 	"minimum-stability": "dev"
 }
