@@ -16,6 +16,12 @@
          "type": "vcs",
          "url": "https://github.com/clintonnzedimma/SausageHTTP" 
       }
-    ]
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "SausageHTTP\\SausageHTTP\\": "src/"
+        }
+    },
 
 }
