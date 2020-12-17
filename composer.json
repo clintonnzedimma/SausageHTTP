@@ -1,6 +1,7 @@
 {
     "name": "clintonnzedimma/sausage-http",
     "description": "A lightweight PHP library for sending HTTP requests",
+    "version": "0.1.3",
     "type": "library",
     "authors": [
         {
