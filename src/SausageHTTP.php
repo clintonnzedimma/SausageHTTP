@@ -105,6 +105,7 @@ class SausageHTTP
 			    $ch = curl_init(); 
 			    curl_setopt($ch,CURLOPT_URL, trim($this->params['URL'])."?".http_build_query($this->params['OPTIONS']));
 			    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+			    curl_setopt($ch, CURLOPT_HTTPHEADER, $this->params['HEADER']);
 			 
 			    $output=curl_exec($ch);
 			    curl_close($ch);
